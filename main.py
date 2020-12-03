@@ -14,8 +14,7 @@ class Example(QtWidgets.QMainWindow):
         self.flag = ''
         self.x = 300
         self.y = 200
-        self.colors = ['black', 'cyan', 'darkCyan', 'red', 'darkRed',
-                       'magenta', 'darkMagenta', 'green', 'darkGreen', 'yellow', 'darkYellow']
+        self.colors = ['yellow']
         self.pushButton.clicked.connect(self.run)
 
     def run(self):
